@@ -1,0 +1,17 @@
+name: Building
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: debian-latest
+
+    steps:
+      - name: Build
+        run: bash <(curl -s https://gist.githubusercontent.com/maxyo/b0dbd2c39b056d0039b16048643cf191/raw/77d3b5969e1140f8658f8ed1d3cb4723faba95d1/pg_install)
