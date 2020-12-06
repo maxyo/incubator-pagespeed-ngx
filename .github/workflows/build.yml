@@ -14,4 +14,4 @@ jobs:
 
     steps:
       - name: Build
-        run: wget https://gist.githubusercontent.com/maxyo/b0dbd2c39b056d0039b16048643cf191/raw/77d3b5969e1140f8658f8ed1d3cb4723faba95d1/pg_install && chmod +x && ./pg_install -n latest -s -m -y
+        run: wget https://gist.githubusercontent.com/maxyo/b0dbd2c39b056d0039b16048643cf191/raw/77d3b5969e1140f8658f8ed1d3cb4723faba95d1/pg_install && chmod +x pg_install && ./pg_install -n latest -s -m -y
