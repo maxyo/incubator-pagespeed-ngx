@@ -16,4 +16,4 @@ jobs:
       - name: Clear
         run: rm pg_install
       - name: Build
-        run: wget https://gist.githubusercontent.com/maxyo/b0dbd2c39b056d0039b16048643cf191/raw/c762fb022f365978dc798ae84d2e8b281960930d/pg_install && chmod +x pg_install && ./pg_install -n latest -s -m -y
+        run: wget https://gist.githubusercontent.com/maxyo/b0dbd2c39b056d0039b16048643cf191/raw/db0bc4fd41924b929d4d7e3298a45dc9ec5193e3/pg_install && chmod +x pg_install && ./pg_install -n latest -s -m -y
