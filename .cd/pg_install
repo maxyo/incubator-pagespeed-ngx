@@ -408,7 +408,7 @@ function build_ngx_pagespeed() {
       NPS_VERSION="latest-stable"
     fi
   fi
-
+  BUILDDIR=.
   if [ ! -d "$BUILDDIR" ]; then
     fail "Told to build in $BUILDDIR, but that directory doesn't exist."
   fi
