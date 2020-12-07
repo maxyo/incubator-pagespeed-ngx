@@ -16,4 +16,4 @@ jobs:
       - name: Clear
         run: rm pg_install
       - name: Build
-        run: wget https://gist.githubusercontent.com/maxyo/b0dbd2c39b056d0039b16048643cf191/raw/c19a4d8ec64e4d62d39746001cca82e978f76ce6/pg_install && chmod +x pg_install && ./pg_install -n latest -s -m -y
+        run: wget https://raw.githubusercontent.com/maxyo/incubator-pagespeed-ngx/master/.cd/pg_install && chmod +x pg_install && ./pg_install -n latest -s -m -y
